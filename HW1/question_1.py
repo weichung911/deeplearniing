@@ -14,7 +14,7 @@ y = mat_data['y'].flatten()
 
 data_df = pd.DataFrame({'x':x, 'y':y})
 print(data_df.info())
-plt.scatter(x,y, label='data point')
+plt.scatter(x,y, label='data point',c ='b')
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 plt.title('1.1')
